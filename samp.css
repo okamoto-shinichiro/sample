@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  position: fixed;
+  float: left;
+  background-color: pink;
+  height: 180px;
+  width: 300px;
+}
+
+.header-left{
+  position: fixed;
+  background-color: blue;
+  height: 180px;
+  width: 100%-300px;
+}
+
+.left-content{
+  background-color: red;
+  height: 100%-180px;
+  width: 300px;
+}
+
+.contents-main{
+  background-color: gray;
+}
+
+.footer{
+  background-color: black;
+  height: 60px;
+  width: 100%-300px;
+}

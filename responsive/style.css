@@ -1,0 +1,27 @@
+
+.wrapper {
+  background-color: #d9ead3;
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+
+div {
+    width: calc(100% / 3);
+}
+
+/* 以下のセレクタは.wrapperの子要素です */
+.blue {
+  background-color: #c9daf8;
+  height: 200px;
+}
+
+.red {
+  background-color: #ea9999;
+  height: 200px;
+}
+
+.yellow {
+  background-color: #fff2cc;
+  height: 200px;
+} 
